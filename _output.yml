@@ -7,7 +7,7 @@ bookdown::gitbook:
         <li><a href="./">Reproducible Research with R</a></li>
       after: |
         <li><a href="https://pkgs.rstudio.com/bookdown/" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/petzi53/triple-r-book/edit/main/%s
+    edit: https://github.com/petzi53/triple-r-book/edit/master/%s
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:
