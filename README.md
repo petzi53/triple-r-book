@@ -1,30 +1,12 @@
-Welcome Peter! 
+The book "Reproducible Research with R" (triple-r-book) introduces R for data science to the novice. There is already a vast and constantly growing number of introductory textbooks about R on the market. So why a new book?
 
-This is my personal minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). 
+**Reproducible workflows:** The book's primary emphasis is to teach reproducible research behavior. Incorporating these new attitudes is essential not only for reproducible data analysis with R but also, in the most general sense, for research strategies in academia. The book targets the so-called Early Career Researcher (ECR). It fosters an Open Science approach by connecting teaching R and data science with discussing career moves in the competitive academic world.
 
-This template provides a skeleton file structure to create a new bookdown project with all my changes and additions. 
+**Tidyverse:** The book uses almost exclusively commands from the tidyverse and other packages supporting the tidyverse approach. Even in new textbooks, you can often find a mixture of base R with tidyverse commands. Sometimes only because the author will demonstrate the advantages of tidyverse in contrast to base R. This "double approach" distracts students and complicate things. But yes, it is still vital to understand base R code, be that your co-workers use it, be that you are reading code or books written in the pre-tidyverse style. I will therefore dedicate separate chapters to understanding base R code and learning how to convert it to tidyverse code.
 
-The the folder "test-old-stuff" contains some .Rmd files from the original minimal example. They provide some pointers to help you get started, but feel free to delete the content in each file or the complete folder. Also change the content of this file to your new README text for the nwe project.
+**Didactic:** I will use in this book several educational devices. 
 
-## ToDo list for a new bookdown project
-
-- Copy folder "Meine-Repos/BOOKDOWN TEMPLATE/bookdown-template-book" to "Meine-Repos/"
-- Change folder name "bookdown-template-book" to Repo name
-- Change .Rproj file to repo name
-- Open project via RStudio
-- Open file `_output.yml` and replaces "HERE INSERT THE BOOK NAME" with the book name
-- Change the GitHub address to the new repo
-- Change the title in index.Rmd
-- Check "options" and" knitr::opts_chunk" in `_common.R`.
-- Check `CTRL-B` to a first test compilation of the book 
-- Commit you first commit
-- Type in the console: `usethis::use_github()`
-
-VOILÀ: The bookdown project with all my changes is local and online working
-
-
-## Additional resources:
-
-The **bookdown** book: https://bookdown.org/yihui/bookdown/
-
-The **bookdown** package reference site: https://pkgs.rstudio.com/bookdown
+- Each chapter starts with learning outcomes describing the skills you will acquire after successfully finishing the module.
+- Each chapter offers a link to interactive [h5p](https://h5p.org/) quizzes to repeat the main conceptual points of the chapter. 
+- Each chapter offers tutorials developed with the {[learnr](https://rstudio.github.io/learnr/)} package. 
+- Each chapter features lab exercises in R Markdown files where you can practice and compare your procedures and outcomes and compare with sample solutions.
